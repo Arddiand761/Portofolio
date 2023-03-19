@@ -1,0 +1,37 @@
+#include<iostream>
+using namespace std;
+void aboutme(){
+    cout<<"======================================================About me==========================================================="<<endl;
+    cout<<"Hallo My name Is Arddian Darmawan ";
+    cout<<"I'm here making a portfolio  "<<endl;
+    cout<<"for my Programming Algorithm Course Assignment "<<endl;
+    cout<<"now I have entered the second semester at Ahmad Dahlan University "<<endl;
+    cout<<"I took informatics at Ahmad Dahlan University, "<<endl;
+    cout<<"the reason why I chose informatics is because in my opinion informatics has broad job prospects, "<<endl;
+    cout<<"you can be whatever you want in informatics "<<endl;
+    cout<<"for example as a software engineer & developer (software developer), analyst, consultant, network expert and many others "<<endl;
+    cout<<"========================================================================================================================="<<endl;
+}
+
+void contact(){
+    cout<<"if you are interested to discuss with me please contact my instagram @arddiandrmwn"<<endl;
+}
+
+int main(){
+
+    
+   int pilihan;
+    cout<<"=============HOME=============="<<endl;
+    cout<<"Hello what do you want to know?"<<endl;
+    cout<<"1.About Me"<<endl;
+    cout<<"2.contact"<<endl;
+    cin>>pilihan;
+    if (pilihan == 1)
+    {
+        aboutme();
+    }else if (pilihan == 2)
+    {
+        contact();
+    }
+}
+    
